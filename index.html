@@ -5,10 +5,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <link rel="icon" href="images/logo.png">
-    <meta name="keywords" content="Accountants, South Africa"/>
-    <meta name="author" content="Distinctive Accounting"/>
+    <meta name="keywords" content="Accountants, South Africa" />
+    <meta name="author" content="Distinctive Accounting" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Distinctive Accounting - South African Institute of Professional Accountants">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'; base-uri 'self';">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="deny">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
     <!-- Bootstrap CSS -->
@@ -17,11 +24,13 @@
     <title>Distinctive Accounting</title>
 </head>
 
+
 <body class="leading-normal">
- <div class="container">
-    <img src="images/main_banner.png" class="img-fluid" alt="Responsive image">
- </div>
- <br>
+
+    <div class="container">
+        <img src="images/main_banner.png" class="img-fluid" alt="Responsive image">
+    </div>
+    <br>
     <div class=container>
         <div style="background-color: rgba(68, 64, 64, 0.1);">
             <div class="text-center">
@@ -31,20 +40,27 @@
                     style="font-family: Cormorant Garamond; font-size: 20px; line-height: 20px; color: rgb(112, 69, 69);">ACCOUNTING</span>
             </div>
             <div class="text-center">
-            <p>Kindly note, this site is under construction</p>
+                <p>Redirecting you to our official site. https://distinctacc.co.za/</p>
+                <a href="https://distinctacc.co.za/">Click here</a> if you aren't redirected automatically.
+            </div>
         </div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script>
+            function myFunction() {
+                location.replace("https://distinctacc.co.za/")
+            }
+            myFunction()
+        </script>
 </body>
 
 </html>
